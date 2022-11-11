@@ -128,8 +128,7 @@
 
   .card {
     margin: 0px 25px;
-    border: 1px solid white;
-    border-radius: 25px;
+    border: 1px solid #ffffff;
     width: 200px;
     height: 200px;
     display: flex;
