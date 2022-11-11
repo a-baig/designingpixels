@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100;
+}
+@media screen and (min-width: 786px) {
+  /* Start of media */
+
+  body {
+    background-color: #00010c;
+    color: #fefefe;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  div {
+    /* border: 1px solid red; */
+  }
+
+  #Main-Wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 350px;
+    position: fixed;
+  }
+
+  #Main-Heading {
+    max-width: 300px;
+  }
+
+  #Main-Heading::after {
+    content: " ";
+    background-color: #fefefe;
+    width: 2px;
+    height: 60%;
+    position: absolute;
+    margin: 15px 0px 0px 20px;
+    transform: rotateZ(-2deg);
+    opacity: 50%;
+  }
+  #Main-Heading #one {
+    font-weight: 300;
+    font-size: 85px;
+    opacity: 50%;
+  }
+
+  #Main-Heading #two {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px;
+    /* border: 1px solid green; */
+  }
+
+  #Secondary-Heading {
+    /* margin: auto auto 0px auto; */
+    width: 200px;
+    /* border: 1px solid yellow; */
+    font-size: 35px;
+    font-weight: 300;
+    opacity: 50%;
+    line-height: 35px;
+  }
+
+  #MainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #00010c;
+  }
+  #CTA-Button {
+    border: 1px solid white;
+    border-radius: 25px;
+    font-weight: 400;
+    opacity: 50%;
+    padding: 10px 20px;
+    box-shadow: -7px -4px #ffffff;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  #CTA-Button:hover {
+    box-shadow: 0px 0px #ffffff;
+    background-color: #ffffff;
+    opacity: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #cards-wrapper {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 400px; */
+  }
+
+  #cards-wrapper .cover .card .card-link {
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cover {
+    display: flex;
+    margin: 25px 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .card {
+    margin: 0px 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+
+  .card:hover {
+    opacity: 100%;
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 0px 18px #fefefe;
+    background-color: #fefefe;
+    border-color: #00010c;
+  }
+
+  #cards-wrapper .cover .card .card-link:hover {
+    color: #00010c;
+  }
+
+  /* End of media */
+}
