@@ -217,9 +217,15 @@
   #social-wrapper .social-link > img {
     border-radius: 25px;
     width: 30px;
+    transform:rotateZ(0deg);
+    transition: all .2s ease-in-out;
   }
 
 
+  #social-wrapper .social-link:hover>img{
+    transform:rotateZ(360deg);
+    transition: all .2s ease-in-out;  
+  }
   #social-wrapper .social-link:hover{
 
     opacity: 100%;
