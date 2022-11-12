@@ -238,7 +238,8 @@
     display: block;
     
   } 
-
+ #social-wrapper .social-link:hover #Arrow{
+   opacity: 100%}
 
 
   /* End of media */
